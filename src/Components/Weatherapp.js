@@ -1,4 +1,5 @@
 import React, {useEffect, useState } from 'react';
+import weatherImage from './day-and-night.png'
 import '../Components/weatherapp.css';
 
 
@@ -68,7 +69,7 @@ const Weatherapp = () =>{
 
                 <div className='display_search'>
                 <div className='weather_icon'>
-                <img className='weather_img' src="/images/weather_icon/day-and-night.png" alt="City Weather"/> 
+                <img className='weather_img' src={weatherImage} alt="City Weather"/> 
                 </div>
                 <div className='weather_details'>
                     <div className='current_temp'>
