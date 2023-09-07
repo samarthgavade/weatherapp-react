@@ -5,7 +5,7 @@ import Weatherapp from './Components/Weatherapp';
 function App() {
   return (
     <div className="App">
-      <Weatherapp/>
+      <Weatherapp basename="/weatherapp-react"/>
     </div>
   );
 }
